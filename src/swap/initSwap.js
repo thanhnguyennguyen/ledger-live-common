@@ -65,8 +65,8 @@ const initSwap: InitSwap = async (
       {
         provider,
         amountFrom,
-        from: refundCurrency.ticker,
-        to: payoutCurrency.ticker,
+        from: refundCurrency.id,
+        to: payoutCurrency.id,
         rateId,
         address: payoutAccount.freshAddress,
         refundAddress: refundAccount.freshAddress,
